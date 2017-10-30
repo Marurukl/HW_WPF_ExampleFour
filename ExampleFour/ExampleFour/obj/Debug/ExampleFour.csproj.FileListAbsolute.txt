@@ -1,0 +1,14 @@
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\bin\Debug\ExampleFour.exe.config
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\bin\Debug\ExampleFour.exe
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\bin\Debug\ExampleFour.pdb
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour.csprojResolveAssemblyReference.cache
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\MainWindow.g.cs
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\App.g.cs
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour_MarkupCompile.cache
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour_MarkupCompile.lref
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\MainWindow.baml
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour.g.resources
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour.Properties.Resources.resources
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour.csproj.GenerateResource.Cache
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour.exe
+C:\Users\закарьянова\Documents\Visual Studio 2017\Projects\ExampleFour\ExampleFour\obj\Debug\ExampleFour.pdb

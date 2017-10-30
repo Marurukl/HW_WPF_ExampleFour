@@ -1,0 +1,54 @@
+﻿<Window x:Class="ExampleFour.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExampleFour"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <TextBlock x:Name="digitsForCalculationTextBlock" HorizontalAlignment="Left" Margin="10,5,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="30" Width="497" FontWeight="Bold" FontSize="17"/>
+            <Label x:Name="operatorsLabel" Content="" Margin="10,35,469,45" FontWeight="Bold" FontSize="10"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            
+            <UniformGrid Grid.Column="0" >
+                <Button x:Name="oneButton" Content="1" Click="OneButton_Click"/>
+                <Button x:Name="twoButton" Content="2" Click="TwoButton_Click"/>
+                <Button x:Name="threeButton" Content="3" Click="ThreeButton_Click"/>
+                <Button x:Name="zeroButton" Content="0" Click="ZeroButton_Click"/>
+                <Button x:Name="fourButton" Content="4" Click="FourButton_Click"/>
+                <Button x:Name="fiveButton" Content="5" Click="FiveButton_Click"/>
+                <Button x:Name="sixButton" Content="6" Click="SixButton_Click"/>
+                <Button x:Name="doubleZeroButton" Content="00" Click="DoubleZeroButton_Click"/>
+                <Button x:Name="sevenButton" Content="7" Click="SevenButton_Click"/>
+                <Button x:Name="eightButton" Content="8" Click="EightButton_Click"/>
+                <Button x:Name="nineButton" Content="9" Click="NineButton_Click"/>
+                <Button x:Name="pointButton" Content="." Click="PointButton_Click"/>
+            </UniformGrid>
+            <UniformGrid Grid.Column="1">
+                <Button x:Name="plusButton" Content="+" Click="PlusButton_Click"/>
+                <Button x:Name="minusButton" Content="-" Click="MinusButton_Click"/>
+                <Button x:Name="multiplyButton" Content="*" Click="MultiplyButton_Click"/>
+                <Button x:Name="divideButton" Content="/" Click="DivideButton_Click"/>
+                <Button x:Name="percentButton" Content="%" Click="PercentButton_Click"/>
+                <Button x:Name="rootButton" Content="sqrt" Click="RootButton_Click"/>
+                <Button x:Name="squareButton" Content="x^2" Click="SquareButton_Click"/>
+                <Button x:Name="exactlyButton" Content="=" Click="ExactlyButton_Click"/>
+                <Button IsEnabled="False"/>
+                <Button x:Name="eraseButton" Content="erase" Click="EraseButton_Click"/>
+                <Button x:Name="clearButton" Content="C" Click="ClearButton_Click"/>
+                <Button IsEnabled="False"/>
+            </UniformGrid>
+        </Grid>
+    </Grid>
+</Window>
